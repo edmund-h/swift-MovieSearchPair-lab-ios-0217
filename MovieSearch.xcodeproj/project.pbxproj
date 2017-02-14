@@ -16,6 +16,9 @@
 		5B3294A11E5384A800EAFDC1 /* toystory.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B32949F1E5384A800EAFDC1 /* toystory.json */; };
 		5B3294A31E53861600EAFDC1 /* titanic.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B3294A21E53861600EAFDC1 /* titanic.json */; };
 		5B3294A51E5386DA00EAFDC1 /* MovieSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3294A41E5386DA00EAFDC1 /* MovieSearchViewController.swift */; };
+		882D2A3C1E53A068005939FA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D2A3B1E53A068005939FA /* Movie.swift */; };
+		882D2A3E1E53BB41005939FA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D2A3D1E53BB41005939FA /* File.swift */; };
+		882D2A401E53C158005939FA /* MovieSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D2A3F1E53C158005939FA /* MovieSearchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		5B32949F1E5384A800EAFDC1 /* toystory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = toystory.json; sourceTree = "<group>"; };
 		5B3294A21E53861600EAFDC1 /* titanic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = titanic.json; sourceTree = "<group>"; };
 		5B3294A41E5386DA00EAFDC1 /* MovieSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchViewController.swift; sourceTree = "<group>"; };
+		882D2A3B1E53A068005939FA /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		882D2A3D1E53BB41005939FA /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		882D2A3F1E53C158005939FA /* MovieSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 			children = (
 				5B3294981E52609900EAFDC1 /* MovieAPI.swift */,
 				5B3294861E52604800EAFDC1 /* AppDelegate.swift */,
+				882D2A3B1E53A068005939FA /* Movie.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -83,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				5B3294A41E5386DA00EAFDC1 /* MovieSearchViewController.swift */,
+				882D2A3F1E53C158005939FA /* MovieSearchCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -104,6 +112,7 @@
 				5B32949F1E5384A800EAFDC1 /* toystory.json */,
 				5B32948D1E52604800EAFDC1 /* Assets.xcassets */,
 				5B3294921E52604800EAFDC1 /* Info.plist */,
+				882D2A3D1E53BB41005939FA /* File.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,8 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882D2A401E53C158005939FA /* MovieSearchCell.swift in Sources */,
+				882D2A3E1E53BB41005939FA /* File.swift in Sources */,
 				5B3294991E52609900EAFDC1 /* MovieAPI.swift in Sources */,
 				5B3294871E52604800EAFDC1 /* AppDelegate.swift in Sources */,
+				882D2A3C1E53A068005939FA /* Movie.swift in Sources */,
 				5B3294A51E5386DA00EAFDC1 /* MovieSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
